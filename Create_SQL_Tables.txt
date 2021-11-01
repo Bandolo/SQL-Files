@@ -1,0 +1,48 @@
+
+Table 1 Creation:
+CREATE TABLE stafftable
+(StaffID INTEGER, 
+FirstName VARCHAR(25), 
+LastName VARCHAR(25), 
+Age INTEGER, 
+Gender VARCHAR(25)
+)
+
+
+Table 1 Insert First Row:
+INSERT INTO stafftable VALUES
+(101, 'John', 'Ambe', 25, 'Male'),
+
+Table 1 Insert Remaining Rows:
+INSERT INTO stafftable VALUES
+(102, 'Mary', 'Fonyuy', 29, 'Female'),
+(103, 'Peter', 'Lawrence', 30, 'Male'),
+(104, 'Nina', 'Neba', 33, 'Female'),
+(105, 'Mark', 'White', 35, 'Male'),
+(106, 'Michael', 'Scott', 30, 'Male'),
+(107, 'Tina', 'Williams', 38, 'Female'),
+(108, 'Claudette', 'Ayuk', 27, 'Male'),
+(109, 'Guy', 'Asong', 40, 'Male'),
+(112, 'Blessing', 'Okoye', 40, 'Female')
+
+
+Table 2 Creation:
+CREATE TABLE staffsalary 
+(StaffID INTEGER, 
+JobTitle VARCHAR(25), 
+Salary INTEGER
+)
+
+
+Table 2 Insert:
+INSERT INTO staffsalary VALUES
+(101, 'Accountant', 45000),
+(102, 'Analyst', 36000),
+(103, 'Care Rep', 63000),
+(104, 'Analyst', 47000),
+(105, 'Receptionist', 50000),
+(106, 'Manager', 65000),
+(107, 'Care Rep', 41000),
+(108, 'Manager', 48000),
+(109, 'HR', 42000),
+(110, 'Receptionist', 35000)
